@@ -1,0 +1,425 @@
+    *{
+         margin:0;
+         padding: 0%;
+         box-sizing: border-box;
+    }
+                               /*toute le page html*/
+    body{
+         font-family: 'montserrat' ,sans serif;
+         background-color: rgb(247, 247, 247);
+         padding: 0;
+         margin: 0%;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        background-color: antiquewhite;
+        padding: 10px;
+    }
+
+    header nav ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+    }
+
+    header nav ul li a{
+        text-decoration: none;
+        font-size: 15px;
+        color: #222;
+        font-weight: bold;
+        flex-direction: row;
+    }
+
+    header nav ul li a:hover{
+        color:black;
+        text-decoration: underline;
+    }
+                                         
+                           /* page index html*/
+.h3{
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  font-family: sans-serif;
+  box-shadow: 4px 5px 5px 5px;
+  padding-bottom:20px ;
+  padding-top: 20px;
+}
+
+.photo-acceuil{
+    background-color: rgb(255, 255, 255);
+    margin: 0%;
+    height: 100vh;
+}
+
+.pro1{
+   display: flex;
+   flex-direction: row;
+    margin-top: 2%;
+   margin-bottom: 1%;
+}
+
+.pro1 img{
+   width: 70%;
+   height: 300px;
+   padding-left:5%;
+   padding-right:15px;
+   padding-top:4%;
+   border-radius: 30% 20px;
+}
+.pro1 p{
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 10%;
+    margin-top:3%;
+    padding-right: 5%;
+    padding-left: 15px;
+}
+
+.pro2{
+   display: flex;
+   flex-direction: row;
+   margin-bottom: 1%;
+}
+
+.pro2 img{
+   width: 70%;
+   height: 300px;
+   padding-right:10px;
+   padding-left:20px;
+   padding-top:4%;
+   justify-content: left;
+   border-radius: 30% 20px;
+}
+
+.pro2 p{
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding-left: 5%;
+    font-weight: 700;
+    margin-top:2%;
+    padding-top: 8%;
+    padding-right: 5%;
+}
+
+.pro3{
+   display: flex;
+   flex-direction: row;
+   margin-bottom: 1%;
+}
+
+.pro3 img{
+   width: 70%;
+   height: 300px;
+   padding-left: 5%;
+   padding-top:4%;
+   justify-content: left;
+   padding-right:15px;
+   border-radius: 30% 20px;
+}
+
+.pro3 p{
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 8%;
+    margin-top:2%;
+    padding-left:5%;
+    padding-right: 15px;
+}
+
+.pro4{
+   display: flex;
+   flex-direction: row;
+   margin-bottom: 1%;
+}
+
+.pro4 img{
+   width: 70%;
+   height: 300px;
+   padding-right: 3%;
+   padding-left: 5%;
+   padding-top:4%;
+   justify-content: left;
+   border-radius: 30% 20px;
+}
+
+.pro4 p{
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 8%;
+    margin-top:2%;
+    padding-right: 5%;
+    padding-left: 15px;
+}
+                             
+                        /*page menu html*/
+
+        header h2{
+            color: #222;
+            font-size: 20px;
+            font-weight: bold;
+        }
+         .page-principale{
+            display: flex;
+            height: 100vh;
+        }
+        
+        .menu , .photo{
+            flex: 1;
+            padding: 20px;
+        }
+
+        .menu{
+            background-color: rgb(244, 239, 239);
+            overflow-y: auto;
+            padding-right: 5px;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 6px 24px rgba(0,0,0,0.08);
+        }
+
+        .menu img{
+            width: 220px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 6px;
+            padding: 10px;
+            box-shadow: 0px 2px 4px  rgba(red, green, blue, alpha);
+        }
+
+        .produit{
+            
+            background:linear-gradient(180deg,#fff,#fff0eb);
+            display: flex;
+            margin-bottom: 12px;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 8px;
+            border-radius: 10px;
+            gap: 20px;
+        }
+
+        .nom{
+            font-size: 15px;
+            color: rgb(0, 0, 0);
+            padding: 10px;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+
+        .prix{
+            font-size: 20px;
+            color: #f7ae11;
+            padding-top: 50px;
+
+        }
+
+        .photo{
+             background-color: rgb(244, 239, 239);
+             padding: 20px;
+             box-shadow: 0 6px 24px rgba(0,0,0,0.08);
+        }
+
+        .photo img{
+            width: 100%;
+            height: 450px;
+            padding: 5px;
+        }
+
+        .photo p{
+            font-size: 20px;
+            color: #222;
+            text-align: center;     
+        }
+
+        .photo h3{
+            font-size: 30px;
+            color: #222;
+            text-align: center;
+        }
+
+        .div{
+            display: flex;
+            justify-content: space-between;
+        }
+
+                        /*page de commande */
+
+.page-commande {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.page-commande h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input, textarea {
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.button {
+  margin-top: 15px;
+  background-color: #ff6600;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color:#e55b00;
+}
+                             /*page apropos*/
+
+.apropos{
+   background-color: antiquewhite;
+   padding: 30px;
+   margin: 50px;
+   box-shadow: 0 6px 24px rgba(0,0,0,0.08);
+}
+
+.apropos p {
+    padding: 15px;
+    color: #222;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.apropos h2{
+    text-align: center;
+}
+
+                        /*page de contact */
+
+.contact{
+    background-color: antiquewhite;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 1%;
+}
+
+.contact h1{
+    color: black;
+    text-align: center;
+    font-size: 40px;
+}
+
+textarea{
+    margin-top:3%;
+    width: 100%;
+}
+
+.infos{
+    background-color: #e8f5e9;
+    margin-top:30px;
+    border-left: 5px solid green;
+    border-radius: 5px;
+}
+
+.infos p{
+    font-size: 20px;
+    padding: 9px;
+    color: black;
+    padding-left:20px 0;
+}
+
+.infos a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #388e3c;
+}
+
+button {
+  margin-top: 15px;
+  background-color: #9a9592;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color:#4c4c4c;
+}
+
+.infos a:hover{
+    text-decoration: underline;
+}
+
+                                      /* ceci est adapte le taille de l ecran dans les telephone */
+
+@media (max-width: 768px) {
+
+  h1 {
+    font-size: 24px; /* Réduit la taille du titre */
+    text-align: center;
+  }
+
+  P{
+    text-align: justify;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a {
+    margin: 5px 0;
+    font-size: 18px;
+  }
+
+  .texte-accueil {
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .plat {
+    display: block;
+    width: 100%;
+    margin-bottom:20px;
+}
+}
